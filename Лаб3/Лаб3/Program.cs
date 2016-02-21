@@ -62,7 +62,7 @@ namespace Лаб3
             int[] array2 = { 3, 8, 1, 7, 2, 8, 3 };
             int[] array3 = new int [7]; 
             int i = 0;
-
+            //RV: Unfortunately my console doesn't show cyrillic characters. Please use latin characters in further implementations
             while (i < array3.Length)
             {
                 Console.Write("Введите " + i + " действие ");
@@ -70,7 +70,7 @@ namespace Лаб3
                 i++;
             }
 
-
+            //RV: This implentation is not checking every step for correctness, so the farmer is moving back and forth until the end, probably with somebody eaten.
             for (i = 0; i < array3.Length; i++)
             {
 

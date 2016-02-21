@@ -49,6 +49,7 @@ Server: CPU - 8 cores, 3 HGz, memory - 16 GB, HDD – 2 TB
             server1.HDD = 2000;
             server1.computers = ComputerType.Desktop;
 
+            //RV: The array should contai computers, not integers (Computer[][]). What if you want to upgarade the amount of memory in just one of the computers in certain department? 
             int[][] departments = new int[4][];
             departments[0] = new int[3] { 2, 2, 1 };
             departments[1] = new int[3] { 0, 3, 0 };
@@ -79,6 +80,8 @@ Server: CPU - 8 cores, 3 HGz, memory - 16 GB, HDD – 2 TB
             int max_HDD;
             int min_CPU;
 
+            //RV: For finding the largest HDD delare the variable, say, int largestHDD = 0, go through the array of the computers 
+            //RV: and computer's HDD is larger than largestHDD assign its HDD size to largestHDD.
             // Max HDD
             if ((desktop1.HDD > laptop1.HDD) && (desktop1.HDD > server1.HDD)) 
             {
@@ -99,6 +102,7 @@ Server: CPU - 8 cores, 3 HGz, memory - 16 GB, HDD – 2 TB
             
             
             
+            //RV: The same as above
             //Min CPU
             if ((desktop1.CPU < laptop1.CPU) && (desktop1.CPU < server1.CPU))
             {
@@ -116,6 +120,7 @@ Server: CPU - 8 cores, 3 HGz, memory - 16 GB, HDD – 2 TB
                 Console.WriteLine("\nMin number of CPU : server1 " + min_CPU + "cores");
             }
 
+            //RV: Why do you increasing the memory one by one? You can just assign 8;
             do
             {
                 desktop1.memory = desktop1.memory + 1;
