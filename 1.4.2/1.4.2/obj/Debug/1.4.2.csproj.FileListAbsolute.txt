@@ -1,0 +1,6 @@
+E:\Программы с курсов\1.4.2\1.4.2\bin\Debug\1.4.2.exe.config
+E:\Программы с курсов\1.4.2\1.4.2\bin\Debug\1.4.2.exe
+E:\Программы с курсов\1.4.2\1.4.2\bin\Debug\1.4.2.pdb
+E:\Программы с курсов\1.4.2\1.4.2\obj\Debug\1.4.2.csprojResolveAssemblyReference.cache
+E:\Программы с курсов\1.4.2\1.4.2\obj\Debug\1.4.2.exe
+E:\Программы с курсов\1.4.2\1.4.2\obj\Debug\1.4.2.pdb
