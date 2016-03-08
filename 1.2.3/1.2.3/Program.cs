@@ -32,8 +32,10 @@ namespace _1._2._3
             return sum_money;
         }
 
+        //RV: You receive stack overflow exception when using this operator, right?
         public static Money operator --(Money money_1)
-        {
+        {            
+            //RV: Should be: money_1.Amount--;
             money_1 = --money_1;
             return money_1;
         }
@@ -45,6 +47,7 @@ namespace _1._2._3
             return sum_money;
         }
 
+        //RV: The same stack overflow, right?
         public static Money operator <(Money money_1, Money money_2)
         {
             return money_1 < money_2;
@@ -125,6 +128,7 @@ namespace _1._2._3
                                     break;
 
                                 case 2:
+                                    //RV: Use overloaded operator of Moneay class instead. The same for below cases.
                                     result = --money_1.Amount;
                                     Console.WriteLine("Result = " + result);
                                     break;
