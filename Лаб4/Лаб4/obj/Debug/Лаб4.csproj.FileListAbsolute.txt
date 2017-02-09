@@ -1,6 +1,0 @@
-E:\Программы с курсов\Лаб4\Лаб4\bin\Debug\Лаб4.exe.config
-E:\Программы с курсов\Лаб4\Лаб4\bin\Debug\Лаб4.exe
-E:\Программы с курсов\Лаб4\Лаб4\bin\Debug\Лаб4.pdb
-E:\Программы с курсов\Лаб4\Лаб4\obj\Debug\Лаб4.csprojResolveAssemblyReference.cache
-E:\Программы с курсов\Лаб4\Лаб4\obj\Debug\Лаб4.exe
-E:\Программы с курсов\Лаб4\Лаб4\obj\Debug\Лаб4.pdb
