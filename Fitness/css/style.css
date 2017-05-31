@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css?family=Convergence');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.sans_light {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.sans_medium {
+	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 600;
+}
+
+.sans_reg {
+	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 400;
+}
+
+.monserat {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.color_green {
+	color: #a2ca28;
+}
+
+.bg_color_green {
+	background-color: #a2ca28;
+}
+
+.color_pink {
+	color: #fd634e;
+}
+
+.bg_color_pink {
+	background-color: #fd634e;
+}
+
+.header {
+	background-image: url("../img/header.jpg");
+	background-repeat: no-repeat;
+	height: 890px;
+}
+
+.logo_tint {
+	font-size: 34pt;
+	color: #fd634e;
+}
+
+.logo {
+	font-family: 'Convergence', sans-serif;
+	font-size: 18pt;
+	color: white;
+	letter-spacing: 3px;
+	position: absolute;
+		top: 0px;
+		left: 100px;
+}
+
+.logo_hr {
+	width: 45px;
+	border-color: #a2ca28;
+	border-width: 2px;
+	border-radius: 2px;
+	margin: 0px;
+	margin-left: 45px;
+	position: absolute;
+		top: 30px;
+		left: 55px;
+}
+
+
+.navbar-nav {
+	font-family: 'Convergence', sans-serif;
+	float: right;
+	text-transform: uppercase;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 30px;
+}
+
+.navbar-brand {
+  float: left;
+  height: auto;
+  padding: 0px;
+  line-height: 30px;
+}
+
+.navbar-header {
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+	padding: 15px 5px 5px 5px;
+	margin: 0px 25px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: white;
+	border-bottom: 3px solid #a2ca28;
+}
+
+.slogan {
+	font-family: 'Assistant', sans-serif;
+	font-style: italic;
+	color: white;
+	position: absolute;
+	top: 625px;
+	left: 80px;
+}
+
+.slogan_up {
+	font-size: 40pt;
+}
+
+.slogan_down {
+	font-size: 20pt;
+	padding-left: 200px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.banners {
+	background-color: #a2ca28;
+	display: flex;
+	margin: 100px 0px;
+	width: 1180px;
+}
+
+.banner {
+	display: flex;
+	flex-direction: column;
+	width: 265px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: white;
+	margin: 0px 30px 0px 0px;
+	flex-grow: 1;
+}
+
+.banner a {
+	color: white;
+}
+
+.glyphicon-comment,
+.glyphicon-dashboard {
+	font-size: 28pt; !important
+}
+
+.grid1,
+.grid2,
+.grid3 {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.fitness_first {
+	width:400px;
+	height: 390px;
+	float: left;
+	background-color: white;
+
+	font-family: 'Assistant', sans-serif;
+	text-align: center;
+	color: #7d8184;
+	padding: 80px 60px 0px 60px;
+}
+
+.fitness_first p {
+	margin: 0px;
+}
+
+.fitness_first h2 {
+	margin: 0px 0px 20px 0px;
+}
+
+.fitness_first a:hover {
+	color: #fd634e;
+}
+
+.fitness_first_img {
+	width: 780px;
+	height: 390px;
+	float: right;
+	background-image: url("../img/fitness_first.jpg");
+}
+
+.fitness_first_img p {
+	float: right;
+	margin-top: 310px;
+	margin-right: 30px;
+}
+
+.number {
+	color:white;
+}
+
+
+// .fitness_first_img img {
+// 	height: 390px;
+// 	width: 780px;
+// }
+
+.fitness_first_tint {
+	margin-bottom: 20px;
+	color: #e6ebec;
+}
+
+.your_body {
+	width:400px;
+	height: 390px;
+	float: right;
+	background-color: white;
+
+	font-family: 'Assistant', sans-serif;
+	text-align: center;
+	color: #7d8184;
+	padding: 80px 60px 0px 60px;
+}
+
+.your_body_img {
+	width: 780px;
+	float: left;
+	height: 390px;
+	background-image: url("../img/your_body.jpg");
+}
+
+.your_body_img p {
+	margin-top: 310px;
+	margin-left: 30px;
+}
+
+// .your_body_img img {
+// 	height: 390px;
+// 	width: 780px;
+// }
+
+
+.lifestyle_img {
+	float: left;
+	width: 400px;
+	height: 330px;
+	background-image: url("../img/lifestyle.jpg");
+}
+
+// .lifestyle_img img {
+// 	width: 400px;
+// 	height: 330px;
+// }
+
+.summer_sun_img {
+	float: right;
+	width: 780px;
+	height: 330px;
+	background-image: url("../img/summer_sun.jpg");
+}
+
+.summer_sun_img .date {
+	padding-top: 50px;
+	padding-left: 60px;
+	float: left;
+	letter-spacing: 1px;
+}
+
+.summer_sun_img .ttl {
+	padding-top: 50px;
+	padding-right: 60px;
+	float: right;
+	letter-spacing: 1px;
+}
+
+
+// .summer_sun_img img {
+// 	width: 780px;
+// 	height: 330px;
+// }
+
+.lifestyle {
+	clear: both;
+	width:400px;
+	height: 260px;
+	float: left;
+	background-color: white;
+
+	font-family: 'Assistant', sans-serif;
+	text-align: left;
+	color: #7d8184;
+	padding: 40px 60px 0px 60px;
+}
+
+.lifestyle h2 {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.lifestyle p {
+	margin: 0px;
+}
+
+.summer_sun {
+	width:780px;
+	height: 260px;
+	float: right;
+	color: white;
+	padding: 25px 100px 50px 80px;
+	box-shadow: 0px 0px 100px rgba(0,0,0,0.6);
+	z-index: 1;
+}
+
+.summer_sun h2 {
+	margin-bottom: 30px;
+}
+
+.track_you_img {
+	clear: both;
+	float: left;
+	z-index: 0;
+}
+
+.fa-lemon-o {
+	color: #e1e7e8;
+	float: right;
+}
+
+.fa-user {
+	color: #e1e7e8;
+	float: right;
+}
+
+.fa-gratipay {
+	float: right;
+}
+
+.eating_habbits_img {
+	float: right;
+}
+
+.track_you_img img {
+	width: 780px;
+	height: 330px;
+}
+.eating_habbits_img img {
+	width: 400px;
+	height: 330px;
+}
+
+.track_you {
+	clear: both;
+	width: 780px;
+	height: 260px;
+	float: left;
+	background-color: white;
+
+	font-family: 'Assistant', sans-serif;
+	text-align: left;
+	color: #7d8184;
+	padding: 40px 60px 0px 60px;
+}
+
+.track_you h2 {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.track_you p {
+	margin: 0px;
+}
+
+.eating_habbits {
+	width:400px;
+	height: 260px;
+	float: right;
+	color: white;
+	padding: 40px 60px 0px 60px;
+}
+
+.eating_habbits h2 {
+	margin: 0px;
+	margin-bottom: 30px;
+}
+
+.eating_habbits p {
+	margin: 0px;
+}
+
+.footer_banner {
+	background-image: url("../img/footer_banner.jpg");
+	width: 100%;
+	height: 724px;
+}
+
+.footer_slogan {
+	margin: 0 auto;
+}
+
+.footer_slogan h3 {
+	color: white;
+	font-size: 35pt;
+	padding-top: 210px;
+	word-spacing: 10px;
+}
+
+.footer_slogan p {
+	color: white;
+	font-size: 12pt;
+
+}
+
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+
+.arrow1 {
+	width: 0; height: 0;
+	border-left: 1160px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 30px solid #fd634e;
+	transform: rotate(180deg);
+	position: relative;
+		right: 0px;
+		top: 650px;
+	z-index: 1;
+}
+
+.d28 {
+	height: 130px; 
+	width: 100%; 
+	margin: 0px;
+	position: relative;
+}
+
+.d28:before, .d28:after {
+	content: "";
+	height: 100%; 
+	width: 50%;
+	position: absolute; 
+		top: 670px;
+	background: #0d1119;
+}
+
+.d28:before {
+	left: 0;
+	transform: skew(0deg, 4deg);
+}
+.d28:after {
+	right: 0;
+	transform: skew(0deg, -4deg);
+}
+
+.footer{
+	width: 1280px;
+	height: 500px;
+	background-color: #0d1119;
+	margin: 0 auto;
+}
+
+.bd_dark_blue {
+	background-color: #0d1119;
+}
+
+.contacts {
+	width: 400px;
+	height: 130px;
+	margin-top: 150px;
+	margin-right: 20px;
+	color: white;
+}
+
+.contacts h4 {
+	margin-bottom: 25px;
+}
+
+.contacts p {
+	color: #6d7f8d;
+}
+
+.facebook,
+.twitter,
+.youtube,
+.linkedin {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.facebook {
+	background-color: #2e3192;
+	padding-top: 18px;
+	padding-left: 22px;
+}
+
+.twitter {
+	background-color: #00aeef;
+	padding-top: 16px;
+	padding-left: 18px;
+}
+
+.youtube {
+	background-color: #ed3123;
+	padding-top: 16px;
+	padding-left: 17px;
+}
+
+.linkedin {
+	background-color: #171a8f;
+	padding-top: 16px;
+	padding-left: 20px;
+}
+
+.form {
+	margin-top: 50px;
+	margin-right: 150px;
+	float: right;
+}
+
+.form_name {
+	width: 200px;
+	height: 50px;
+	border: none;
+	padding-left: 20px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+.form_mail {
+	width: 300px;
+	height: 50px;
+	border: none;
+	padding-left: 20px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+.btn {
+	height: 50px;
+	width: 170px;
+	padding: 6px 12px;
+	font-size: 14px;
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+.btn-success {
+  color: white;
+  background-color: #a2ca28;
+  border-color: #a2ca28;
+}
