@@ -1,0 +1,195 @@
+.shw {
+	animation: showing;
+	animation-duration: 1.5s;
+	animation-timing-function: linear;
+}
+
+.hide {
+    animation: hiding;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+}
+
+.show {
+	animation: showing;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+}
+@keyframes hiding {
+	0% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 0.8;
+	}
+	40% {
+		opacity: 0.6;
+	}
+	60% {
+		opacity: 0.4;
+	}
+	80% {	
+		opacity: 0.2;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes showing {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0.2;
+	}
+	40% {
+		opacity: 0.4;
+	}
+	60% {
+		opacity: 0.6;
+	}
+	80% {	
+		opacity: 0.8;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.design_icon:hover,
+.crafted_icon:hover,
+.customize_icon:hover {
+	cursor: pointer;
+	animation: rotte;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+}
+
+@keyframes rotte {
+	0% {
+		transform: rotateY(0deg);
+	}
+	20% {
+		transform: rotateY(72deg);
+	}
+	40% {
+		transform: rotateY(144deg);
+	}
+	60% {
+		transform: rotateY(216deg);
+	}
+	80% {	
+		transform: rotateY(288deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
+@keyframes money {
+	0% {
+		position: relative;
+			top: -50px;
+	}
+	20% {
+		position: relative;
+			top: -20px;
+	}
+	40% {
+		position: relative;
+			top: -10px;
+	}
+	60% {
+		position: relative;
+			top: 0px;
+	}
+	80% {
+		position: relative;	
+			top: -20px;
+	}
+	100% {
+		position: relative;
+			top: -50px;
+	}
+}
+
+
+.sub_list:hover {
+	animation: showing;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+}
+
+// .drop_left {
+// 	animation: dropped_left;
+// 	animation-duration: 1s;
+// 	animation-timing-function: linear;
+// }
+
+// @keyframes dropped_left {
+// 	0% {
+// 		position: relative;
+// 			left: -250px;
+// 	}
+// 	20% {
+// 		position: relative;
+// 			left: -200px;
+// 	}
+// 	40% {
+// 		position: relative;
+// 			left: -150px;
+// 	}
+// 	60% {
+// 		position: relative;
+// 			left: -100px;
+// 	}
+// 	80% {
+// 		position: relative;	
+// 			left: -50px;
+// 	}
+// 	100% {
+// 		position: relative;
+// 			left: 0px;
+// 	}
+// }
+
+
+.std_pct:hover {
+	animation: showing;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+}
+
+// .drop_right:hover {
+// 	animation: dropped_right;
+// 	animation-duration: 1s;
+// 	animation-timing-function: linear;
+// }
+
+// @keyframes dropped_right {
+// 	0% {
+// 		position: relative;
+// 			right: -250px;
+// 	}
+// 	20% {
+// 		position: relative;
+// 			right: -200px;
+// 	}
+// 	40% {
+// 		position: relative;
+// 			right: -150px;
+// 	}
+// 	60% {
+// 		position: relative;
+// 			right: -100px;
+// 	}
+// 	80% {
+// 		position: relative;	
+// 			right: -50px;
+// 	}
+// 	100% {
+// 		position: relative;
+// 			right: 0px;
+// 	}
+// }
